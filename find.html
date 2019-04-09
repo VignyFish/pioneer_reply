@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>发现</title>
+
+    <script src="static/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="static/css/style.css" />
+
+</head>
+<style>
+    .top-bar {
+        width: auto;
+        height: 471px;
+        background-image: url("static/images/banner.jpg");
+        -moz-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+
+    .top-bar .nav-wrap {
+        display: block;
+        padding-top: 32px;
+    }
+
+    .nav-wrap a {
+        color: rgb(125, 124, 124);
+        font-weight: bolder;
+    }
+
+    .nav-wrap .logo a img {
+        display: block;
+        float: left;
+        height: 47px;
+        width: 47px;
+        margin-left: 28%;
+        border-radius: 13px;
+        box-shadow: 1px 1px 1px rgb(166, 163, 163);
+    }
+
+    .nav {
+        margin-left: 2%;
+        float: left;
+        width: 35%;
+        background-color: white;
+        border-radius: 13px;
+        box-shadow: 1px 1px 1px rgb(166, 163, 163);
+    }
+
+    .nav ul {
+        /* margin: 0px auto; */
+        /* float: left; */
+        text-align: center;
+        height: 50px;
+    }
+
+    .nav ul a:first-child {
+        /* margin-left: 7%; */
+
+    }
+
+    .nav ul a {
+        float: left;
+        margin-left: 7%;
+    }
+
+    .nav ul a li {
+        font-size: 16px;
+        line-height: 50px;
+    }
+
+
+
+    .nav-wrap span {
+        float: left;
+        padding-left: 7%;
+        line-height: 50px;
+    }
+
+    .main-content {
+        background-color: #ffff;
+        height: 1140px;
+    }
+
+    .content-wrap {
+        float: left;
+        margin-top: -7%;
+        margin-left: 10%;
+        width: 80%;
+        box-shadow: 1px 1px 3px rgb(166, 163, 163);
+    }
+
+    .content-wrap .tip {
+        background-color: #ffff;
+        height: 70%;
+    }
+
+    .content-wrap .case {
+        background-color: rgb(250, 247, 247);
+    }
+
+
+
+
+
+
+    .case {
+        display: grid;
+    }
+
+    .footer {
+        height: 100px;
+        background-color: aquamarine;
+    }
+
+    .clear {
+        clear: both;
+    }
+</style>
+
+<body>
+    <div class="body-wrap">
+
+        <!-- banner部分 -->
+        <div class="top-bar">
+
+            <div class="nav-wrap">
+
+                <!-- logo -->
+                <div class="logo">
+                    <a href="#"><img src="static/images/logo.png" alt="Logo" /></a>
+                </div>
+
+                <!-- 导航 -->
+                <div class="nav">
+                    <ul>
+                        <a>
+                            <li class="item1">首页</li>
+                        </a>
+                        <a>
+                            <li class="item2">发布</li>
+
+                        </a>
+                        <a>
+                            <li class="item3">找人</li>
+
+                        </a>
+                        <a>
+                            <li class="item4">找项目</li>
+
+                        </a>
+                        <a>
+                            <li class="item5">发现</li>
+
+                        </a>
+                        <a>
+                            <li class="item6">APP</li>
+
+                        </a>
+                    </ul>
+                </div>
+                <span>
+                    <a href="#">登录</a> / <a href="#">注册</a>
+                </span>
+            </div>
+
+        </div>
+
+        <!-- 主体内容 -->
+        <div class="main-content">
+            <div class="content-wrap">
+                <div class="tip">
+                    <div class="title">
+                        <span>创业小知识</span>
+                    </div>
+                    <div>
+                        <span>大学生创业需要掌握的一些核心知识</span>
+                    </div>
+
+                </div>
+                <div class="case">
+                    <div class="c_1">1</div>
+                    <div class="c_2">2</div>
+                    <div class="c_3">3</div>
+                    <div class="c_4">4</div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- 底部信息 -->
+        <div class="footer">
+            <div class="footer-nav">
+
+            </div>
+
+            <div class="footer-info">
+                <p>广州市动景计算机科技有限公司 | 增值电信业务经营许可证: 粤B2-20070379粤ICP备09210879号</p>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
